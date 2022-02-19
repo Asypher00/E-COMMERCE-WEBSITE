@@ -1,0 +1,91 @@
+body{background-color: white;
+    color : black;
+    font-family: "comic sans ms";
+    
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items :center;
+}
+.nav-container{
+    background-color: rgb(188, 251, 62);
+ align-items: center;
+justify-content: space-between;
+width : 97vw;
+
+}
+
+.nav-footer{
+    align-items: center;
+    width : 20%;
+}
+.btn{
+    margin : 0px;
+    background-color: lightgray;
+}
+
+.nav-main{display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left : 250%;
+    
+}
+
+.nav-input{text-align: center;
+    font-family: "comic sans ms";
+    color : black;
+    font-size: 1.25rem;
+    width : 500px;
+    border : 2px solid black;
+    border-radius: 10px;
+    background-color: lightgray;
+    
+   }
+   .border{
+    border : 2px solid black;
+    border-radius: 10px;
+   }
+   
+   .login-container{
+       width : 20vw;
+       align-items: center;
+       display: flex;
+       flex-direction: column;
+       background-color:rgb(188, 251, 62) ;
+       margin-top : 200px;
+
+
+   }
+
+   .login-input{font-size: 1rem;
+       font-family: "comic sans ms";
+       text-align: center;
+       width : 80%;
+       margin : 1.25rem;
+       background-color: lightgray;
+       
+   }
+
+   .checkers{
+       display : flex;
+       justify-content: space-between;
+       margin : 5px;
+       width : 90%;
+   }
+
+   .login-anchor{
+       color : black;
+       text-decoration: none;
+   }
+.login-btn{
+    margin : 10px;
+}
+
+.new-account{
+    margin : 10px;
+}
+   
+
+   
