@@ -1,0 +1,137 @@
+body {
+    background-color: white;
+    color: black;
+    font-family: "comic sans ms";
+
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.nav-container {position:fixed;
+    left : 1vw;
+   z-index: 1;
+    display: flex;
+    flex-grow: 1;
+    background-color: rgb(188, 251, 62);
+    align-items: center;
+    justify-content: space-between;
+    width: 97vw;
+
+}
+
+.nav-footer {
+    align-items: center;
+    width: 20%;
+}
+
+.btn-nav {
+    
+    margin: 0px;
+    background-color: lightgray;
+}
+
+.nav-main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 250%;
+
+}
+
+.nav-input {
+    text-align: center;
+    font-family: "comic sans ms";
+    color: black;
+    font-size: 1.25rem;
+    width: 500px;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: lightgray;
+
+}
+
+.main-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.filter-container {position: fixed;
+    
+    left : 1vw;
+    top : 10vh;
+    margin-top : 10px;
+    display: flex;
+    flex-direction: column;
+background-color: lightgray;
+    width: 20vw;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.clear-btn {
+    background-color: transparent;
+}
+
+.filter-header {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    width: 95%;
+    margin: 5px;
+}
+
+.filter-by-price {
+    display: flex;
+    flex-direction: column;
+
+
+}
+
+.price-filter {
+    padding: 0px;
+    align-items: center;
+    display: flex;
+}
+.filter-by-category{
+    display: flex;
+    flex-direction: column;
+}
+.filter-by-rating{
+    display: flex;
+    flex-direction: column;
+}
+
+.filter-by-range{
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+.product-wrapper{position: relative;
+    padding: 1rem;
+    background-color:lightgray;
+    left : 4vw;
+    top : 10vh;
+    display : grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap : 15px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.product-child{
+background-color:rgb(188, 251, 62) ;
+}
+
+.card-container{
+    background-color: white;
+}
+.card-btn{
+    background-color: rgb(188, 251, 62);
+}
