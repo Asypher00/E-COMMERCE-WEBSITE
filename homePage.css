@@ -1,0 +1,122 @@
+body{background-color: white;
+    color : black;
+    font-family: "comic sans ms";
+    
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.nav-container{
+    background-color: rgb(188, 251, 62);
+ align-items: center;
+justify-content: space-between;
+width : 97vw;
+
+}
+
+.nav-footer{
+    align-items: center;
+    width : 20%;
+}
+.btn{
+    margin : 0px;
+    background-color: lightgray;
+}
+
+.nav-main{display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left : 250%;
+    
+}
+
+input{text-align: center;
+    font-family: "comic sans ms";
+    color : black;
+    font-size: 1.25rem;
+    width : 500px;
+    border : 2px solid black;
+    border-radius: 10px;
+    background-color: lightgray;
+    
+   }
+   
+
+   .wrapper-main{display: grid;
+    grid-template-columns: 1fr 1fr 1fr; 
+    gap : 10px;
+   
+       margin-top: 1.25rem;
+       height: 50vh;
+   }
+
+.wrapper-main-child{
+    text-align: center;
+   
+    
+    
+}
+.wrapper-main-main{
+    display: flex;
+    flex-direction: column;
+  
+
+}
+.wrapper-main-img{
+    margin : 10px;
+    height: 95%;
+    width : 95%;
+    border:  2px solid black;
+    border-radius: 10px;
+}
+
+.brand{margin-top: 1.5em;
+    background-color:rgb(188, 251, 62) ;
+    border:  2px solid black;
+    border-radius: 10px;
+
+    font-size: 5rem;
+}
+.subheading{
+    background-color: lightgray;
+    margin-top : 5px;
+    
+    border:  2px solid black;
+    border-radius: 10px;
+}
+.wrapper-footer{
+    margin-top: 1.25rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap : 10px;
+    height : 350px;
+    }
+
+    .wrapper-footer-child{
+        background-color: rgb(188, 251, 62);;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        
+        border: 2px solid black;
+        border-radius: 10px;
+    }
+.wrapper-footer-img{
+    width : 50%;
+    height: 70%;
+    margin : 5px;
+    border:  2px solid black;
+    border-radius: 10px;
+}
+
+.footer-txt{
+    display: flex;
+  flex-direction: column;
+}
+
+span:nth-of-type(1){
+    font-size: 2rem;
+}
+    
