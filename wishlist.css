@@ -1,82 +1,92 @@
-body{background-color: white;
-    color : black;
-    font-family: "comic sans ms";
-    
+:root {
+    --neon-green: rgb(188, 251, 62);
 }
-.container{
+
+body {
+    background-color: white;
+    color: black;
+    font-family: "comic sans ms";
+
+}
+
+.container {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
     align-items: center;
 }
-.nav-container{
-    background-color: rgb(188, 251, 62);
- align-items: center;
-justify-content: space-between;
-width : 97vw;
 
-}
-
-.nav-footer{
+.nav-container {
+    background-color: var(--neon-green);
     align-items: center;
-    width : 20%;
+    justify-content: space-between;
+    width: 97vw;
+
 }
-.btn{
-    margin : 0px;
+
+.nav-footer {
+    align-items: center;
+    width: 20%;
+}
+
+.btn {
+    margin: 0px;
     background-color: lightgray;
 }
 
-.nav-main{display: flex;
+.nav-main {
+    display: flex;
     justify-content: center;
     align-items: center;
-    margin-left : 250%;
-    
+    margin-left: 250%;
+
 }
 
-.nav-input{text-align: center;
+.nav-input {
+    text-align: center;
     font-family: "comic sans ms";
-    color : black;
+    color: black;
     font-size: 1.25rem;
-    width : 500px;
-    border : 2px solid black;
+    width: 31.25rem;
+    border: 2px solid black;
     border-radius: 10px;
     background-color: lightgray;
-    
-   }
-   .border{
-    border : 2px solid black;
+
+}
+
+.border {
+    border: 2px solid black;
     border-radius: 10px;
-   }
-   .wishlist-header{
-       font-size : 3rem;
-       margin : 1.25rem;
-      padding : 10px;
-       background-color: rgb(188, 251, 62);
-       border-radius: 20px;
+}
 
-   }
+.wishlist-header {
+    font-size: 3rem;
+    margin: 1.25rem;
+    padding: 10px;
+    background-color: var(--neon-green);
+    border-radius: 1.25rem;
 
-   .wishlist-wrapper{
-       padding : 1rem;
-       background-color: lightgray;
-       display : grid;
-       gap : 10px;
-       grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-   }
-.card-container{
+}
+
+.wishlist-wrapper {
+    padding: 1rem;
+    background-color: lightgray;
+    display: grid;
+    gap: 10px;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+
+.card-container {
     background-color: white;
 }
 
-.btn-icon{
+.btn-icon {
     background-color: white;
-    width : auto;
-    
-    border-radius : 50%
-    }
+    width: auto;
 
-    .red-icon{
-        color : red;
-    }
+    border-radius: 50%
+}
 
-   
-   
+.red-icon {
+    color: red;
+}
