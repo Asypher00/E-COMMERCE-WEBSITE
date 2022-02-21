@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://platinum-ui.netlify.app/components/styles.css" />
+    <link rel="stylesheet" href="cart-management.css">
+    <script src="https://kit.fontawesome.com/228add9a8b.js" crossorigin="anonymous"></script>
+    <title>Cart Management</title>
+</head>
+<body>
+    <div class="container">
+        <nav class="nav-container">
+            <div class="nav-header">
+                <div class="nav-child"><i class="fas fa-bars"></i>
+                </div>
+                <div class="nav-main"><input class="nav-input" type="text" placeholder="Search"></div>
+            </div>
+            <div class="nav-footer">
+                <button class="btn btn-link"> <a class="txt-style" href="/">Login</a></button>
+                <div class="nav-child"><a href="/"><i class="fas fa-shopping-cart fa-lg"></i></div></a>
+                <div class="nav-child"> <a href="/"> <i class="fas fa-heart fa-lg"></i></div></a>
+
+            </div>
+        </nav>
+        <div class="cart-main border">
+       <div class="h-card-container border">
+           <img class="h-card-img border" src="/images/download.jpg" alt="nike">
+           <div class="card-txt">
+               <div class="product">Nike Air Jordans 1</div>
+               <div class="price">Rs 20000</div>
+               <div class="quantity">Quantity :-</div>
+               <div class="quant-handler"><button class="minus-btn">-</button><input class="quant-input"type=text placeholder="1"><button class="plus-btn">+</button></div>
+               <div class="remove-btn"><button class="small-btn">Remove From Cart</button></div>
+               <div class="wishlist-btn"><button class="small-btn">Move to Wishlist</button></div>
+               </div>
+       </div>
+       <div class="details border">
+        <div class="details-header details-txt">    Price Details</div>
+        <div class="price details-txt"><span>Price:</span> <span>Rs 40000(2)</span></div>
+        <div class="discount details-txt"><span>Discount:</span><span>Rs 2000</span></div>
+        <div class="delivery-charge details-txt"><span>Delivery:</span><span>Rs 500</span></div>
+        <div class="final-amount details-txt"><span>Total:</span><span>38500</span></div>
+    </div>
+        </div>
+    </div>
+
+    
+</body>
+</html>
