@@ -1,3 +1,7 @@
+:root{
+    --neon-green : rgb(188, 251, 62);
+}
+
 body {
     background-color: white;
     color: black;
@@ -16,7 +20,7 @@ body {
    z-index: 1;
     display: flex;
     flex-grow: 1;
-    background-color: rgb(188, 251, 62);
+    background-color: var(--neon-green);
     align-items: center;
     justify-content: space-between;
     width: 97vw;
@@ -126,12 +130,12 @@ background-color: lightgray;
 }
 
 .product-child{
-background-color:rgb(188, 251, 62) ;
+background-color:var(--neon-green) ;
 }
 
 .card-container{
     background-color: white;
 }
 .card-btn{
-    background-color: rgb(188, 251, 62);
+    background-color: var(--neon-green);
 }
