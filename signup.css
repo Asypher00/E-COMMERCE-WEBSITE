@@ -14,7 +14,7 @@ body{background-color: white;
     align-items :center;
 }
 .nav-container{
-    background-color: var(--neon-green;)
+    background-color: var(--neon-green);
  align-items: center;
 justify-content: space-between;
 width : 97vw;
