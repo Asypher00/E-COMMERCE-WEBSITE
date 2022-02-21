@@ -1,3 +1,7 @@
+
+:root{
+--neon-green : rgb(188, 251, 62);
+}
 body{background-color: white;
     color : black;
     font-family: "comic sans ms";
@@ -10,7 +14,7 @@ body{background-color: white;
     align-items :center;
 }
 .nav-container{
-    background-color: rgb(188, 251, 62);
+    background-color: var(--neon-green;)
  align-items: center;
 justify-content: space-between;
 width : 97vw;
@@ -37,7 +41,7 @@ width : 97vw;
     font-family: "comic sans ms";
     color : black;
     font-size: 1.25rem;
-    width : 500px;
+    width : 31.25rem;
     border : 2px solid black;
     border-radius: 10px;
     background-color: lightgray;
@@ -53,8 +57,8 @@ width : 97vw;
        align-items: center;
        display: flex;
        flex-direction: column;
-       background-color:rgb(188, 251, 62) ;
-       margin-top : 200px;
+       background-color:var(--neon-green);
+       margin-top : 12.5rem;
 
 
    }
